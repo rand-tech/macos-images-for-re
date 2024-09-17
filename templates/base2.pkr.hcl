@@ -92,6 +92,7 @@ build {
     pause_before     = "30s"
     scripts          = [
       // "${path.root}/../scripts/build/configure-windows.sh",
+      "${path.root}/../scripts/build/install-xcode-clt.sh",
       "${path.root}/../scripts/build/install-python.sh",
       "${path.root}/../scripts/build/install-openssl.sh",
       "${path.root}/../scripts/build/install-git.sh",
